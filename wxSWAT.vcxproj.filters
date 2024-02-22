@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\util\dynamic_string.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\filename_struct.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="gridwidget.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_control_record.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\Timestamp.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\utility.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\utility_afx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="wxSWAT.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\output_column_position.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\output_variable_description_swat.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\output_yield_tracker.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\rowset_hru.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\rowset_subbasin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\swat_controller.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\swat_output.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\swat_weather_list.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATBMPUrbanUse.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATControlRecord.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATCrop.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATDeclarations.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATDetentionPond.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATFertilizer.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATLakeWaterQuality.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATManagement.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUAnnual.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUMonthly.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputHSL.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputReachAnnual.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputReachDaily.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputReachMonthly.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinAnnual.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinMonthly.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPesticide.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPointSources.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesAPEX.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesDaily.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesMonthly.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPond.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATPotentialEvapotranspiration.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATReservoir.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATRetentionIrrigationBasin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATRouting.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATSedimentationFiltrationBasin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATSeptic.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATSepticWaterQuality.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATSoilLayers.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATSoils.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATStreamWaterQuality.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATTemporalConservationPractices.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATTillage.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATUrban.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWatershedWaterQuality.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWaterUse.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWeatherByMonth.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWeatherHistorical.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWeatherStations.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWeirStage.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATWetPond.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\map_object_swat.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\dynamic_map.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\color_set.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\map_scale.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\swat_routing_node.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_epic_database\output_variable_description.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_database.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_field_set.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\exact_decimal.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_epic_database\EPICDeclarations.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\CryptString.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\interface_window.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_database_access.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_database_firebird.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\interface_window_wx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="swat_tree_control.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\dialog_error_list.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_swat.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_configure.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\ARMS_Declarations.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\nri_point.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_database_mysql.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\file_output.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\odbc\odbc_database_sql_server.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_open_database.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\listbox_files.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\custom.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_control_weather.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="list_control_records.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_subbasin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_subbasin_channel.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\weather\averager_weighted.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\control_record_report.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_control_details.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_subbasin_climate.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_subbasin_elevation.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_subbasin_tributary.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_hru.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_hru_2.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_hru_3.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_hru_management.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\message_slot.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\dialog_progress.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_routing_node.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_routing_output.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="propsheet_routing.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_routing_tree.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\interface_tree_wx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\interface_tree.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\dynamic_map_wx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\map_object_tiff.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\card_bitmap.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\card_bitmap_tiff.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\map_object_tiff_wx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\RecentlyOpened.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\RecentlyOpenedDatabases.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\device_coordinate.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="propsheet_control_record.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_import_cio.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_edit_management.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_select.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="propsheet_hru.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_fertilizer.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_pesticide.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\list_field_help.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="list_field_help_swat.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="propsheet_subbasin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\subbasin_effect\thread_manager.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\shapefile.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\dbase.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\shapefile_filter.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\dialog_prompt.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\arbitrary_counter.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinDaily.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUDaily.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\dialog_import_shapefile.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\RecentlyOpenedShapefiles.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\autorange_histogram.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="propsheet_basin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_1.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_2.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_3.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWATTemporalLanduse.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\SWAT2012_DLL.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_swat_database\FortranCommonData.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_4.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_5.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_6.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="page_basin_7.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="MRB_Double_Run.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wxGeneticiSWAT\PointSourceLookup.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wxGeneticiSWAT\RavineAreas.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_paste_genome.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\subbasin_effect\thread_work_swat.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\bounding_cube.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\projection_albers.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\projection_utm.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\util\dynamic_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\filename_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gridwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_control_record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\Timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\utility_afx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wxSWAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\output_column_position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\output_variable_description_swat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\output_yield_tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\rowset_hru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\rowset_subbasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\swat_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\swat_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\swat_routing_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\swat_weather_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATBMPUrbanUse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATControlRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATCrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATDetentionPond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATFertilizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATLakeWaterQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUAnnual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUMonthly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputHSL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputReachAnnual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputReachDaily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputReachMonthly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinAnnual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinMonthly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPesticide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPointSources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesAPEX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesDaily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesMonthly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATPotentialEvapotranspiration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATReservoir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATRetentionIrrigationBasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATRouting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATSedimentationFiltrationBasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATSeptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATSepticWaterQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATSoilLayers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATSoils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATStreamWaterQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATTemporalConservationPractices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATTillage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATUrban.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWatershedWaterQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWaterUse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWeatherByMonth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWeatherHistorical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWeatherStations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWeirStage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATWetPond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\map_object_swat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\dynamic_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\color_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\map_scale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_epic_database\output_variable_description.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_field_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\exact_decimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_epic_database\EPICDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\CryptString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\interface_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_database_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_database_firebird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\interface_window_wx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swat_tree_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\dialog_error_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_swat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\ARMS_Declarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\nri_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_database_mysql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\file_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\odbc\odbc_database_sql_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_open_database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\listbox_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_control_weather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_control_records.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="notebook_subbasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_subbasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_subbasin_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\weather\averager_weighted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\control_record_report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_control_details.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_subbasin_climate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_subbasin_elevation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_subbasin_tributary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_hru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_hru_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_hru_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_hru_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\message_slot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\dialog_progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_routing_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_routing_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propsheet_routing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="panel_routing_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\interface_tree_wx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\interface_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\dynamic_map_wx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\map_object_tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\card_bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\card_bitmap_tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\utm_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\map_object_tiff_wx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\RecentlyOpened.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\RecentlyOpenedDatabases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\device_coordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propsheet_control_record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_import_cio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\bounding_cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_edit_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propsheet_hru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_fertilizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_pesticide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\list_field_help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_field_help_swat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\subbasin_effect\thread_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\shapefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\dbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\shapefile_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\dialog_prompt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\arbitrary_counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinDaily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUDaily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\dialog_import_shapefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\RecentlyOpenedShapefiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\autorange_histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propsheet_basin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWATTemporalLanduse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWAT2012_DLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\FortranCommonData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page_basin_7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MRB_Double_Run.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wxGeneticiSWAT\PointSourceLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wxGeneticiSWAT\RavineAreas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_paste_genome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_swat_database\SWAT2012_core_DLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\subbasin_effect\thread_work_swat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\bounding_cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\projection_albers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\projection_utm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wxSWAT.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wxSWAT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{3aa7d148-1f79-46d0-a35f-d4cc02dcfc65}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{382e74a9-3179-4ed5-8255-58e6d4b284d9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>

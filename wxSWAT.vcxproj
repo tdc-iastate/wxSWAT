@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug 64-bit|Win32">
+      <Configuration>Debug 64-bit</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug 64-bit|x64">
+      <Configuration>Debug 64-bit</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 64-bit|Win32">
+      <Configuration>Release 64-bit</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 64-bit|x64">
+      <Configuration>Release 64-bit</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFACFC58-08C8-4AAF-9AE1-E353A0708D7E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>wxSWAT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>__WX__;_ODBC_TDC;WIN32;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;__WXDEBUG__;_UNICODE;_WINDOWS;NOPCH</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\wxWidgets-3.1.0\include;f:\wxWidgets-3.1.0\lib\vc_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wxmsw31ud_adv.lib;wxmsw31ud_core.lib;wxbase31ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.1.0\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.1.0\lib\vc_lib\mswud;f:\wxWidgets-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>__WX__;_ODBC_TDC;WIN32;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;__WXDEBUG__;_UNICODE;_WINDOWS;NOPCH</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\wxWidgets-3.0.2\include;f:\wxWidgets-3.0.2\lib\vc_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wxmsw30ud_adv.lib;wxmsw30ud_core.lib;wxbase30ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.1.0\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <StackReserveSize>
+      </StackReserveSize>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\lib\vc_lib\mswud;f:\wxWidgets-3.0.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>__WX__;_ODBC_TDC;WIN32;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;__WXDEBUG__;_UNICODE;_WINDOWS;NOPCH</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\wxWidgets-3.0.2\include;f:\wxWidgets-3.0.2\lib\vc_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wxmsw30ud_adv.lib;wxmsw30ud_core.lib;wxbase30ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.0.2\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\lib\vc_lib\mswud;f:\wxWidgets-3.0.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 64-bit|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MRB_DOUBLE_RUN;_SWAT_DLL;__WX__;_ODBC_TDC;WIN32;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;__WXMSW__;_UNICODE;_WINDOWS;NOPCH</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\wxWidgets-3.2.1\include;f:\wxWidgets-3.2.1\lib\vc_x64_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wxmsw32ud_adv.lib;wxmsw32ud_core.lib;wxbase32ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;legacy_stdio_definitions.lib;SWAT2012_670D.lib;SWAT2012_690D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.2.1\lib\vc_x64_lib;F:\fortran\swat2012Rev670-ng\x64\Debug;F:\fortran\swat2012Rev690-ng\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <StackReserveSize>2377216</StackReserveSize>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.2.1\lib\vc_lib\mswud;f:\wxWidgets-3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__WX__;_ODBC_TDC;NDEBUG;WIN32;_WINDOWS;__WINDOWS__;__WXMSW__;__WIN95__;__WIN32__;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.1.0\include;$(WXWIN)\wx2\lib\msw[d];f:\wxWidgets-3.1.0\lib\vc_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>wxmsw31u_adv.lib;wxmsw31u_core.lib;wxbase31u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;winmm.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.1.0\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.1.0\include;f:\wxWidgets-3.1.0\lib\vc_lib\mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__WX__;_ODBC_TDC;NDEBUG;WIN32;_WINDOWS;__WINDOWS__;__WXMSW__;__WIN95__;__WIN32__;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\include;$(WXWIN)\wx2\lib\msw[d];f:\wxWidgets-3.0.2\lib\vc_lib\mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>wxmsw30u_adv.lib;wxmsw30u_core.lib;wxbase30u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;winmm.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.0.2\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\include;f:\wxWidgets-3.0.2\lib\vc_lib\mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_SWAT_DLL;__WX__;_ODBC_TDC;NDEBUG;WIN32;_WINDOWS;__WINDOWS__;__WXMSW__;__WIN95__;__WIN32__;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\include;$(WXWIN)\wx2\lib\msw[d];f:\wxWidgets-3.0.2\lib\vc_lib\mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>wxmsw30u_adv.lib;wxmsw30u_core.lib;wxbase30u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;winmm.lib;oleacc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.0.2\lib\vc_lib;F:\fortran\SWAT2012Rev616_DLL\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.0.2\include;f:\wxWidgets-3.0.2\lib\vc_lib\mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MRB_DOUBLE_RUN;_SWAT_DLL;__WX__;_ODBC_TDC;NDEBUG;WIN32;_WINDOWS;__WINDOWS__;__WXMSW__;__WIN95__;__WIN32__;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.2.1\include;f:\wxWidgets-3.2.1\lib\vc_x64_lib\mswu;f:\fortran\SWAT2012Rev616_DLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>wxmsw32u_adv.lib;wxmsw32u_core.lib;wxbase32u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;winmm.lib;oleacc.lib;legacy_stdio_definitions.lib;SWAT2012_670.lib;SWAT2012_690.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>f:\wxWidgets-3.2.1\lib\vc_x64_lib;F:\fortran\swat2012Rev670-ng\x64\Release;F:\fortran\swat2012Rev690-ng\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <StackReserveSize>
+      </StackReserveSize>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>f:\wxWidgets-3.2.1\include;f:\wxWidgets-3.2.1\lib\vc_lib\mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="wxSWAT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\i_epic_database\EPICDeclarations.h" />
+    <ClInclude Include="..\i_epic_database\output_variable_description.h" />
+    <ClInclude Include="..\i_swat_database\control_record_report.h" />
+    <ClInclude Include="..\i_swat_database\FortranCommonData.h" />
+    <ClInclude Include="..\i_swat_database\map_object_swat.h" />
+    <ClInclude Include="..\i_swat_database\output_column_position.h" />
+    <ClInclude Include="..\i_swat_database\output_variable_description_swat.h" />
+    <ClInclude Include="..\i_swat_database\output_yield_tracker.h" />
+    <ClInclude Include="..\i_swat_database\rowset_hru.h" />
+    <ClInclude Include="..\i_swat_database\rowset_subbasin.h" />
+    <ClInclude Include="..\i_swat_database\SWAT2012_core_DLL.h" />
+    <ClInclude Include="..\i_swat_database\SWAT2012_DLL.h" />
+    <ClInclude Include="..\i_swat_database\SWATBMPUrbanUse.h" />
+    <ClInclude Include="..\i_swat_database\SWATControlRecord.h" />
+    <ClInclude Include="..\i_swat_database\SWATCrop.h" />
+    <ClInclude Include="..\i_swat_database\SWATDeclarations.h" />
+    <ClInclude Include="..\i_swat_database\SWATDetentionPond.h" />
+    <ClInclude Include="..\i_swat_database\SWATFertilizer.h" />
+    <ClInclude Include="..\i_swat_database\SWATLakeWaterQuality.h" />
+    <ClInclude Include="..\i_swat_database\SWATManagement.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUAnnual.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUDaily.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputHRUMonthly.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputHSL.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputReachAnnual.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputReachDaily.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputReachMonthly.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinAnnual.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinDaily.h" />
+    <ClInclude Include="..\i_swat_database\SWATOutputSubBasinMonthly.h" />
+    <ClInclude Include="..\i_swat_database\SWATPesticide.h" />
+    <ClInclude Include="..\i_swat_database\SWATPointSources.h" />
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesAPEX.h" />
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesDaily.h" />
+    <ClInclude Include="..\i_swat_database\SWATPointSourcesMonthly.h" />
+    <ClInclude Include="..\i_swat_database\SWATPond.h" />
+    <ClInclude Include="..\i_swat_database\SWATPotentialEvapotranspiration.h" />
+    <ClInclude Include="..\i_swat_database\SWATReservoir.h" />
+    <ClInclude Include="..\i_swat_database\SWATRetentionIrrigationBasin.h" />
+    <ClInclude Include="..\i_swat_database\SWATRouting.h" />
+    <ClInclude Include="..\i_swat_database\SWATSedimentationFiltrationBasin.h" />
+    <ClInclude Include="..\i_swat_database\SWATSeptic.h" />
+    <ClInclude Include="..\i_swat_database\SWATSepticWaterQuality.h" />
+    <ClInclude Include="..\i_swat_database\SWATSoilLayers.h" />
+    <ClInclude Include="..\i_swat_database\SWATSoils.h" />
+    <ClInclude Include="..\i_swat_database\SWATStreamWaterQuality.h" />
+    <ClInclude Include="..\i_swat_database\SWATTemporalConservationPractices.h" />
+    <ClInclude Include="..\i_swat_database\SWATTemporalLanduse.h" />
+    <ClInclude Include="..\i_swat_database\SWATTillage.h" />
+    <ClInclude Include="..\i_swat_database\SWATUrban.h" />
+    <ClInclude Include="..\i_swat_database\SWATWatershedWaterQuality.h" />
+    <ClInclude Include="..\i_swat_database\SWATWaterUse.h" />
+    <ClInclude Include="..\i_swat_database\SWATWeatherByMonth.h" />
+    <ClInclude Include="..\i_swat_database\SWATWeatherHistorical.h" />
+    <ClInclude Include="..\i_swat_database\SWATWeatherStations.h" />
+    <ClInclude Include="..\i_swat_database\SWATWeirStage.h" />
+    <ClInclude Include="..\i_swat_database\SWATWetPond.h" />
+    <ClInclude Include="..\i_swat_database\swat_controller.h" />
+    <ClInclude Include="..\i_swat_database\swat_output.h" />
+    <ClInclude Include="..\i_swat_database\swat_routing_node.h" />
+    <ClInclude Include="..\i_swat_database\swat_weather_list.h" />
+    <ClInclude Include="..\map\bounding_cube.h" />
+    <ClInclude Include="..\map\color_set.h" />
+    <ClInclude Include="..\map\dbase.h" />
+    <ClInclude Include="..\map\dialog_import_shapefile.h" />
+    <ClInclude Include="..\map\dynamic_map.h" />
+    <ClInclude Include="..\map\dynamic_map_wx.h" />
+    <ClInclude Include="..\map\map_object_tiff.h" />
+    <ClInclude Include="..\map\map_object_tiff_wx.h" />
+    <ClInclude Include="..\map\map_scale.h" />
+    <ClInclude Include="..\map\projection_albers.h" />
+    <ClInclude Include="..\map\projection_utm.h" />
+    <ClInclude Include="..\map\shapefile.h" />
+    <ClInclude Include="..\map\shapefile_filter.h" />
+    <ClInclude Include="..\map\utm_conversion.h" />
+    <ClInclude Include="..\odbc\odbc_database.h" />
+    <ClInclude Include="..\odbc\odbc_database_access.h" />
+    <ClInclude Include="..\odbc\odbc_database_firebird.h" />
+    <ClInclude Include="..\odbc\odbc_database_mysql.h" />
+    <ClInclude Include="..\odbc\odbc_database_sql_server.h" />
+    <ClInclude Include="..\odbc\odbc_field_set.h" />
+    <ClInclude Include="..\subbasin_effect\thread_manager.h" />
+    <ClInclude Include="..\subbasin_effect\thread_work_swat.h" />
+    <ClInclude Include="..\util\arbitrary_counter.h" />
+    <ClInclude Include="..\util\ARMS_Declarations.h" />
+    <ClInclude Include="..\util\autorange_histogram.h" />
+    <ClInclude Include="..\util\bounding_cube.h" />
+    <ClInclude Include="..\util\card_bitmap.h" />
+    <ClInclude Include="..\util\card_bitmap_tiff.h" />
+    <ClInclude Include="..\util\CryptString.h" />
+    <ClInclude Include="..\util\custom.h" />
+    <ClInclude Include="..\util\device_coordinate.h" />
+    <ClInclude Include="..\util\dialog_error_list.h" />
+    <ClInclude Include="..\util\dialog_progress.h" />
+    <ClInclude Include="..\util\dialog_prompt.h" />
+    <ClInclude Include="..\util\dynamic_string.h" />
+    <ClInclude Include="..\util\exact_decimal.h" />
+    <ClInclude Include="..\util\filename_struct.h" />
+    <ClInclude Include="..\util\file_output.h" />
+    <ClInclude Include="..\util\interface_tree.h" />
+    <ClInclude Include="..\util\interface_tree_wx.h" />
+    <ClInclude Include="..\util\interface_window.h" />
+    <ClInclude Include="..\util\interface_window_wx.h" />
+    <ClInclude Include="..\util\list.h" />
+    <ClInclude Include="..\util\listbox_files.h" />
+    <ClInclude Include="..\util\list_field_help.h" />
+    <ClInclude Include="..\util\message_slot.h" />
+    <ClInclude Include="..\util\nri_point.h" />
+    <ClInclude Include="..\util\RecentlyOpened.h" />
+    <ClInclude Include="..\util\RecentlyOpenedDatabases.h" />
+    <ClInclude Include="..\util\RecentlyOpenedShapefiles.h" />
+    <ClInclude Include="..\util\Timestamp.h" />
+    <ClInclude Include="..\util\utility.h" />
+    <ClInclude Include="..\util\utility_afx.h" />
+    <ClInclude Include="..\weather\averager_weighted.h" />
+    <ClInclude Include="..\wxGeneticiSWAT\PointSourceLookup.h" />
+    <ClInclude Include="..\wxGeneticiSWAT\RavineAreas.h" />
+    <ClInclude Include="dialog_configure.h" />
+    <ClInclude Include="dialog_edit_management.h" />
+    <ClInclude Include="dialog_fertilizer.h" />
+    <ClInclude Include="dialog_import_cio.h" />
+    <ClInclude Include="dialog_open_database.h" />
+    <ClInclude Include="dialog_paste_genome.h" />
+    <ClInclude Include="dialog_pesticide.h" />
+    <ClInclude Include="propsheet_routing.h" />
+    <ClInclude Include="dialog_select.h" />
+    <ClInclude Include="gridwidget.h" />
+    <ClInclude Include="list_control_records.h" />
+    <ClInclude Include="list_field_help_swat.h" />
+    <ClInclude Include="MRB_Double_Run.h" />
+    <ClInclude Include="page_basin_1.h" />
+    <ClInclude Include="page_basin_2.h" />
+    <ClInclude Include="page_basin_3.h" />
+    <ClInclude Include="page_basin_4.h" />
+    <ClInclude Include="page_basin_5.h" />
+    <ClInclude Include="page_basin_6.h" />
+    <ClInclude Include="page_basin_7.h" />
+    <ClInclude Include="propsheet_basin.h" />
+    <ClInclude Include="propsheet_hru.h" />
+    <ClInclude Include="notebook_subbasin.h" />
+    <ClInclude Include="page_control_details.h" />
+    <ClInclude Include="page_control_record.h" />
+    <ClInclude Include="page_control_weather.h" />
+    <ClInclude Include="frame_swat.h" />
+    <ClInclude Include="page_hru.h" />
+    <ClInclude Include="page_hru_2.h" />
+    <ClInclude Include="page_hru_3.h" />
+    <ClInclude Include="page_hru_management.h" />
+    <ClInclude Include="page_routing_node.h" />
+    <ClInclude Include="page_routing_output.h" />
+    <ClInclude Include="page_subbasin.h" />
+    <ClInclude Include="page_subbasin_channel.h" />
+    <ClInclude Include="page_subbasin_climate.h" />
+    <ClInclude Include="page_subbasin_elevation.h" />
+    <ClInclude Include="page_subbasin_tributary.h" />
+    <ClInclude Include="panel_routing_tree.h" />
+    <ClInclude Include="swat_tree_control.h" />
+    <ClInclude Include="propsheet_control_record.h" />
+    <ClInclude Include="wxSWAT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\i_epic_database\EPICDeclarations.cpp" />
+    <ClCompile Include="..\i_epic_database\output_variable_description.cpp" />
+    <ClCompile Include="..\i_swat_database\control_record_report.cpp" />
+    <ClCompile Include="..\i_swat_database\FortranCommonData.cpp" />
+    <ClCompile Include="..\i_swat_database\map_object_swat.cpp" />
+    <ClCompile Include="..\i_swat_database\output_column_position.cpp" />
+    <ClCompile Include="..\i_swat_database\output_variable_description_swat.cpp" />
+    <ClCompile Include="..\i_swat_database\output_yield_tracker.cpp" />
+    <ClCompile Include="..\i_swat_database\rowset_hru.cpp" />
+    <ClCompile Include="..\i_swat_database\rowset_subbasin.cpp" />
+    <ClCompile Include="..\i_swat_database\SWAT2012_DLL.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATBMPUrbanUse.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATControlRecord.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATCrop.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATDeclarations.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATDetentionPond.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATFertilizer.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATLakeWaterQuality.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATManagement.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUAnnual.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUDaily.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputHRUMonthly.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputHSL.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputReachAnnual.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputReachDaily.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputReachMonthly.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinAnnual.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinDaily.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATOutputSubBasinMonthly.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPesticide.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPointSources.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesAPEX.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesDaily.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPointSourcesMonthly.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPond.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATPotentialEvapotranspiration.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATReservoir.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATRetentionIrrigationBasin.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATRouting.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATSedimentationFiltrationBasin.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATSeptic.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATSepticWaterQuality.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATSoilLayers.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATSoils.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATStreamWaterQuality.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATTemporalConservationPractices.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATTemporalLanduse.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATTillage.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATUrban.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWatershedWaterQuality.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWaterUse.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWeatherByMonth.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWeatherHistorical.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWeatherStations.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWeirStage.cpp" />
+    <ClCompile Include="..\i_swat_database\SWATWetPond.cpp" />
+    <ClCompile Include="..\i_swat_database\swat_controller.cpp" />
+    <ClCompile Include="..\i_swat_database\swat_output.cpp" />
+    <ClCompile Include="..\i_swat_database\swat_routing_node.cpp" />
+    <ClCompile Include="..\i_swat_database\swat_weather_list.cpp" />
+    <ClCompile Include="..\map\color_set.cpp" />
+    <ClCompile Include="..\map\dbase.cpp" />
+    <ClCompile Include="..\map\dialog_import_shapefile.cpp" />
+    <ClCompile Include="..\map\dynamic_map.cpp" />
+    <ClCompile Include="..\map\dynamic_map_wx.cpp" />
+    <ClCompile Include="..\map\map_object_tiff.cpp" />
+    <ClCompile Include="..\map\map_object_tiff_wx.cpp" />
+    <ClCompile Include="..\map\map_scale.cpp" />
+    <ClCompile Include="..\map\projection_albers.cpp" />
+    <ClCompile Include="..\map\projection_utm.cpp" />
+    <ClCompile Include="..\map\shapefile.cpp" />
+    <ClCompile Include="..\map\shapefile_filter.cpp" />
+    <ClCompile Include="..\odbc\odbc_database.cpp" />
+    <ClCompile Include="..\odbc\odbc_database_access.cpp" />
+    <ClCompile Include="..\odbc\odbc_database_firebird.cpp" />
+    <ClCompile Include="..\odbc\odbc_database_mysql.cpp" />
+    <ClCompile Include="..\odbc\odbc_database_sql_server.cpp" />
+    <ClCompile Include="..\odbc\odbc_field_set.cpp" />
+    <ClCompile Include="..\subbasin_effect\thread_manager.cpp" />
+    <ClCompile Include="..\subbasin_effect\thread_work_swat.cpp" />
+    <ClCompile Include="..\util\arbitrary_counter.cpp" />
+    <ClCompile Include="..\util\ARMS_Declarations.cpp" />
+    <ClCompile Include="..\util\autorange_histogram.cpp" />
+    <ClCompile Include="..\util\bounding_cube.cpp" />
+    <ClCompile Include="..\util\card_bitmap.cpp" />
+    <ClCompile Include="..\util\card_bitmap_tiff.cpp" />
+    <ClCompile Include="..\util\CryptString.cpp" />
+    <ClCompile Include="..\util\custom.cpp" />
+    <ClCompile Include="..\util\device_coordinate.cpp" />
+    <ClCompile Include="..\util\dialog_error_list.cpp" />
+    <ClCompile Include="..\util\dialog_progress.cpp" />
+    <ClCompile Include="..\util\dialog_prompt.cpp" />
+    <ClCompile Include="..\util\dynamic_string.cpp" />
+    <ClCompile Include="..\util\exact_decimal.cpp" />
+    <ClCompile Include="..\util\filename_struct.cpp" />
+    <ClCompile Include="..\util\file_output.cpp" />
+    <ClCompile Include="..\util\interface_tree.cpp" />
+    <ClCompile Include="..\util\interface_tree_wx.cpp" />
+    <ClCompile Include="..\util\interface_window.cpp" />
+    <ClCompile Include="..\util\interface_window_wx.cpp" />
+    <ClCompile Include="..\util\listbox_files.cpp" />
+    <ClCompile Include="..\util\list_field_help.cpp" />
+    <ClCompile Include="..\util\message_slot.cpp" />
+    <ClCompile Include="..\util\nri_point.cpp" />
+    <ClCompile Include="..\util\RecentlyOpened.cpp" />
+    <ClCompile Include="..\util\RecentlyOpenedDatabases.cpp" />
+    <ClCompile Include="..\util\RecentlyOpenedShapefiles.cpp" />
+    <ClCompile Include="..\util\Timestamp.cpp" />
+    <ClCompile Include="..\util\utility.cpp" />
+    <ClCompile Include="..\util\utility_afx.cpp" />
+    <ClCompile Include="..\weather\averager_weighted.cpp" />
+    <ClCompile Include="..\wxGeneticiSWAT\PointSourceLookup.cpp" />
+    <ClCompile Include="..\wxGeneticiSWAT\RavineAreas.cpp" />
+    <ClCompile Include="dialog_configure.cpp" />
+    <ClCompile Include="dialog_edit_management.cpp" />
+    <ClCompile Include="dialog_fertilizer.cpp" />
+    <ClCompile Include="dialog_import_cio.cpp" />
+    <ClCompile Include="dialog_open_database.cpp" />
+    <ClCompile Include="dialog_paste_genome.cpp" />
+    <ClCompile Include="dialog_pesticide.cpp" />
+    <ClCompile Include="propsheet_routing.cpp" />
+    <ClCompile Include="dialog_select.cpp" />
+    <ClCompile Include="gridwidget.cpp" />
+    <ClCompile Include="list_control_records.cpp" />
+    <ClCompile Include="list_field_help_swat.cpp" />
+    <ClCompile Include="MRB_Double_Run.cpp" />
+    <ClCompile Include="page_basin_1.cpp" />
+    <ClCompile Include="page_basin_2.cpp" />
+    <ClCompile Include="page_basin_3.cpp" />
+    <ClCompile Include="page_basin_4.cpp" />
+    <ClCompile Include="page_basin_5.cpp" />
+    <ClCompile Include="page_basin_6.cpp" />
+    <ClCompile Include="page_basin_7.cpp" />
+    <ClCompile Include="propsheet_basin.cpp" />
+    <ClCompile Include="propsheet_hru.cpp" />
+    <ClCompile Include="propsheet_subbasin.cpp" />
+    <ClCompile Include="page_control_details.cpp" />
+    <ClCompile Include="page_control_record.cpp" />
+    <ClCompile Include="page_control_weather.cpp" />
+    <ClCompile Include="frame_swat.cpp" />
+    <ClCompile Include="page_hru.cpp" />
+    <ClCompile Include="page_hru_2.cpp" />
+    <ClCompile Include="page_hru_3.cpp" />
+    <ClCompile Include="page_hru_management.cpp" />
+    <ClCompile Include="page_routing_node.cpp" />
+    <ClCompile Include="page_routing_output.cpp" />
+    <ClCompile Include="page_subbasin.cpp" />
+    <ClCompile Include="page_subbasin_channel.cpp" />
+    <ClCompile Include="page_subbasin_climate.cpp" />
+    <ClCompile Include="page_subbasin_elevation.cpp" />
+    <ClCompile Include="page_subbasin_tributary.cpp" />
+    <ClCompile Include="panel_routing_tree.cpp" />
+    <ClCompile Include="swat_tree_control.cpp" />
+    <ClCompile Include="propsheet_control_record.cpp" />
+    <ClCompile Include="wxSWAT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wxSWAT.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
